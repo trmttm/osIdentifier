@@ -13,8 +13,7 @@ elif sys.platform == "darwin":
     OS = MAC
 elif sys.platform == "win32":
     OS = WINDOWS
-    DIRECTORY_SEPARATOR = '¥¥'
-    NEW_LINE_SYMBOL = '¥n'
+    DIRECTORY_SEPARATOR = '\\'
 
 is_linux = OS == LINUX
 is_windows = OS == WINDOWS
